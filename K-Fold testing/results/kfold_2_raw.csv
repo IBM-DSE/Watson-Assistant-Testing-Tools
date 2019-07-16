@@ -1,0 +1,90 @@
+,original_text,predicted_intent,actual_intent1,actual_confidence1,actual_intent2,actual_confidence2,actual_intent3,actual_confidence3
+0,For sure!,Bot_Control_Approve_Response,Bot_Control_Approve_Response,0.8722572326660156,Bot_Control_Standby,0.4411811828613281,pizza,0.2434752643108368
+1,Great,Bot_Control_Approve_Response,General_Positive_Feedback,0.8229625225067139,General_Greetings,0.3351698756217957,Bot_Control_Approve_Response,0.24601394534111024
+2,Sweet,Bot_Control_Approve_Response,General_Positive_Feedback,0.13459445953369142,Bot_Control_Approve_Response,0.06470175981521607,General_Greetings,0.05665906071662903
+3,That is precisely what I was looking for,Bot_Control_Approve_Response,Bot_Control_Approve_Response,0.8741076469421387,Bot_Control_Reject_Response,0.3583599090576172,General_Jokes,0.2504022300243378
+4,Another thing,Bot_Control_Change_Subject,General_Greetings,0.45106301307678226,Bot_Control_Change_Subject,0.31034550666809085,Bot_Control_Approve_Response,0.3069832444190979
+5,Here is another issue,Bot_Control_Change_Subject,General_Negative_Feedback,0.2703532099723816,Bot_Control_Change_Subject,0.26531060934066775,Bot_Control_Reject_Response,0.261728173494339
+6,Let us talk about something else,Bot_Control_Change_Subject,Bot_Control_Change_Subject,0.963910484313965,Bot_Control_Approve_Response,0.26199297308921815,Bot_Control_Ignore_Undo,0.2475757122039795
+7,Come again?,Bot_Control_Clarification,Bot_Control_Standby,0.39630138874053955,Bot_Control_Ignore_Undo,0.3466127634048462,Bot_Control_Start_Over,0.3103172659873963
+8,I did not quite understand what you gave me,Bot_Control_Clarification,Bot_Control_Clarification,0.8461745262145997,Bot_Control_Unsure,0.2535018384456635,Bot_Control_Reject_Response,0.2462704747915268
+9,I need more information,Bot_Control_Clarification,Bot_Control_Change_Subject,0.3582650780677796,General_Security_Assurance,0.3493721604347229,Bot_Control_Standby,0.34145828485488894
+10,Anyone there?,Bot_Control_Confirm_Presence,General_Greetings,0.8784134387969971,Bot_Control_Confirm_Presence,0.3011572122573853,Bot_Control_Change_Subject,0.2863125085830689
+11,Are you on?,Bot_Control_Confirm_Presence,Bot_Control_Confirm_Presence,0.4606586217880249,General_Human_or_Bot,0.3382753491401672,General_Positive_Feedback,0.27534695863723757
+12,Have I lost you?,Bot_Control_Confirm_Presence,General_Ending,0.9415534973144533,General_Negative_Feedback,0.3693201899528504,Bot_Control_Unsure,0.32146475315094
+13,Hold on! I think I want to do it differently.,Bot_Control_Ignore_Undo,Bot_Control_Standby,0.4866435289382935,General_Connect_to_Agent,0.3454941868782043,turn-right,0.2799958109855652
+14,Never,Bot_Control_Ignore_Undo,Bot_Control_Ignore_Undo,0.620458984375,Bot_Control_Reject_Response,0.3298709154129028,General_Negative_Feedback,0.3274291634559632
+15,Not yet,Bot_Control_Ignore_Undo,Bot_Control_Reject_Response,0.6559382438659669,Bot_Control_Unsure,0.30997365713119507,General_Negative_Feedback,0.30919865369796756
+16,I do not think it is the answer?,Bot_Control_Reject_Response,Bot_Control_Reject_Response,0.7080507755279541,General_Negative_Feedback,0.3064963936805725,General_Agent_Capabilities,0.29430626034736634
+17,I don't want that,Bot_Control_Reject_Response,Bot_Control_Reject_Response,0.7874228477478027,General_Connect_to_Agent,0.37881236076354985,Bot_Control_Clarification,0.2945493757724762
+18,It is not what I was looking for,Bot_Control_Reject_Response,Bot_Control_Reject_Response,0.9479909420013428,General_Greetings,0.32224870920181276,Bot_Control_Unsure,0.25064748525619507
+19,That sounds like the wrong response,Bot_Control_Reject_Response,Bot_Control_Reject_Response,0.9327183246612549,Bot_Control_Approve_Response,0.6389286994934082,General_Negative_Feedback,0.25157421827316284
+20,Can you give me a moment?,Bot_Control_Standby,Bot_Control_Standby,0.865636444091797,pizza,0.25688518285751344,Bot_Control_Confirm_Presence,0.24654744267463685
+21,Give me a few minutes to get together,Bot_Control_Standby,Bot_Control_Standby,0.7470483303070068,General_Greetings,0.25328052043914795,pizza,0.25139400959014896
+22,In a moment,Bot_Control_Standby,Bot_Control_Standby,0.8806774616241455,Bot_Control_Change_Subject,0.27710955739021303,Bot_Control_Approve_Response,0.2719080030918122
+23,I want stop a moment,Bot_Control_Standby,General_Ending,0.9248258113861085,Bot_Control_Standby,0.6080749988555909,General_Connect_to_Agent,0.2869744896888733
+24,Begin over!,Bot_Control_Start_Over,Bot_Control_Start_Over,0.7707880973815919,General_Ending,0.33336992263793946,General_Greetings,0.2563893377780915
+25,How can I start over?,Bot_Control_Start_Over,Bot_Control_Start_Over,0.9342071533203125,General_Agent_Capabilities,0.5513074398040771,General_Greetings,0.28164449930191043
+26,Let's go back to square one,Bot_Control_Start_Over,General_Connect_to_Agent,0.34139006137847905,Bot_Control_Start_Over,0.32874797582626347,Bot_Control_Standby,0.2757471799850464
+27,Let's pick this up from the top again.,Bot_Control_Start_Over,Bot_Control_Start_Over,0.9027729988098145,General_Positive_Feedback,0.3354215741157532,General_Ending,0.3259169936180115
+28,I don t know what you want,Bot_Control_Unsure,Bot_Control_Unsure,0.815575122833252,Bot_Control_Confirm_Presence,0.2930906653404236,General_Agent_Capabilities,0.27601962685585024
+29,I m not yet convinced,Bot_Control_Unsure,Bot_Control_Unsure,0.49701666831970215,Bot_Control_Reject_Response,0.46421792507171633,General_Connect_to_Agent,0.28343624472618106
+30,"To be honest, I m really not sure",Bot_Control_Unsure,Bot_Control_Unsure,0.446176552772522,Bot_Control_Approve_Response,0.2812602579593659,General_Negative_Feedback,0.2726020634174347
+31,Do you have a name?,General_About_You,General_About_You,0.6752362251281738,General_Jokes,0.2656734168529511,General_Ending,0.2623546898365021
+32,How can I configure you?,General_About_You,General_Agent_Capabilities,0.5421635627746582,General_About_You,0.3146144270896912,General_Security_Assurance,0.3011782169342041
+33,I want to set up the chat bot for my shop,General_About_You,General_Connect_to_Agent,0.6957030773162842,General_Security_Assurance,0.498595666885376,toppings,0.2694549858570099
+34,Let us talk about you,General_About_You,General_About_You,0.6765740394592286,Bot_Control_Change_Subject,0.2794368445873261,General_Connect_to_Agent,0.26569337844848634
+35,"Hi, what do you do?",General_Agent_Capabilities,General_Agent_Capabilities,0.8052561759948731,General_Greetings,0.37917439937591557,mission,0.2534500479698181
+36,I'd like to know what type of questions you can answer for me.,General_Agent_Capabilities,General_Agent_Capabilities,0.9345455646514893,General_Security_Assurance,0.279982590675354,Bot_Control_Unsure,0.2748307526111603
+37,Tell me something,General_Agent_Capabilities,Bot_Control_Standby,0.44171154499053955,General_Jokes,0.3113079428672791,Bot_Control_Change_Subject,0.2996030926704407
+38,What are you capable of?,General_Agent_Capabilities,General_Agent_Capabilities,0.9388087272644043,Bot_Control_Confirm_Presence,0.24946309328079225,General_Security_Assurance,0.24855335354804994
+39,What are you good at?,General_Agent_Capabilities,General_Agent_Capabilities,0.4320493459701538,Bot_Control_Confirm_Presence,0.29599684476852417,Bot_Control_Clarification,0.2628723859786988
+40,What is this 4?,General_Agent_Capabilities,location,0.4887406349182129,General_Positive_Feedback,0.3910504460334778,General_Greetings,0.32875230312347414
+41,"A real agent, please.",General_Connect_to_Agent,General_Connect_to_Agent,0.9404235839843751,General_Human_or_Bot,0.35748977661132814,Bot_Control_Clarification,0.24105252623558046
+42,Customer service representative please.,General_Connect_to_Agent,General_Connect_to_Agent,0.8535003185272216,Bot_Control_Start_Over,0.32513660192489624,General_Security_Assurance,0.26173930764198305
+43,I don't want to talk to you,General_Connect_to_Agent,General_Connect_to_Agent,0.7650150299072267,Bot_Control_Reject_Response,0.3089840173721314,General_Negative_Feedback,0.30329010486602787
+44,I want a manager,General_Connect_to_Agent,General_Connect_to_Agent,0.6220163345336914,pizza,0.27667845487594606,General_Ending,0.2656923294067383
+45,I want an agent to help me,General_Connect_to_Agent,General_Connect_to_Agent,0.904076099395752,help,0.38030911684036256,General_Security_Assurance,0.2613428294658661
+46,Need help from human,General_Connect_to_Agent,General_Human_or_Bot,0.47976763248443605,General_Connect_to_Agent,0.467166805267334,help,0.41066381931304935
+47,Put me through to someone,General_Connect_to_Agent,General_Connect_to_Agent,0.7543836116790772,Bot_Control_Confirm_Presence,0.7022597312927246,mission,0.27451837658882144
+48,Where is the closest agent?,General_Connect_to_Agent,General_Connect_to_Agent,0.7554986953735352,location,0.5920037746429443,Bot_Control_Confirm_Presence,0.25899454951286316
+49,Bye now,General_Ending,General_Ending,0.9736532211303712,Bot_Control_Standby,0.27125059962272646,location,0.25016534328460693
+50,Hey bot go away,General_Ending,General_Ending,0.6387858390808105,General_Greetings,0.5133894205093383,General_Connect_to_Agent,0.24414273202419282
+51,I am out of here,General_Ending,General_Ending,0.5435293197631836,Bot_Control_Standby,0.37809057235717775,location,0.2989120721817017
+52,I'm done,General_Ending,General_Ending,1.0,General_Negative_Feedback,0.0,General_Security_Assurance,0.0
+53,Ok goodbye,General_Ending,General_Ending,0.8994597911834716,General_Greetings,0.27147322297096255,General_Positive_Feedback,0.24769357442855836
+54,Thank you for your time,General_Ending,General_Ending,0.5949647903442383,General_Positive_Feedback,0.5933300971984863,General_Jokes,0.2425555229187012
+55,That is all,General_Ending,Bot_Control_Approve_Response,0.7967473506927492,Bot_Control_Clarification,0.28676910996437077,Bot_Control_Ignore_Undo,0.2650868475437165
+56,Good to see you,General_Greetings,General_Ending,0.9557384967803955,General_About_You,0.23656001389026643,General_Positive_Feedback,0.23450697660446168
+57,Greetings,General_Greetings,General_Greetings,0.9811516761779786,toppings,0.27705027461051945,General_Ending,0.27664510011672977
+58,Hello,General_Greetings,General_Greetings,0.9967586994171143,Bot_Control_Approve_Response,0.24691916406154635,Bot_Control_Reject_Response,0.24547479748725892
+59,Hi advisor,General_Greetings,General_Greetings,0.8712305068969728,General_Connect_to_Agent,0.33305591344833374,Bot_Control_Reject_Response,0.26192092299461367
+60,How are you today?,General_Greetings,General_Greetings,0.39947623014450073,General_About_You,0.37853738069534304,General_Agent_Capabilities,0.3304360389709473
+61,What's up?,General_Greetings,General_Greetings,0.9454246997833253,General_Ending,0.41749014854431155,mission,0.25471875667572025
+62,Am I talking to a Bot?,General_Human_or_Bot,General_Human_or_Bot,0.8024828433990479,General_Ending,0.3168026924133301,Bot_Control_Confirm_Presence,0.28651612997055054
+63,Are you human?,General_Human_or_Bot,General_Human_or_Bot,0.8967926979064942,Bot_Control_Clarification,0.2866779148578644,General_About_You,0.284793359041214
+64,Is this a computer?,General_Human_or_Bot,General_Positive_Feedback,0.36594954729080204,General_Security_Assurance,0.32564142942428587,Bot_Control_Start_Over,0.30935306549072267
+65,Are there jokes?,General_Jokes,General_Jokes,0.7950006484985352,turn-right,0.24254819154739382,location,0.24191173017024994
+66,Can you tell me a joke?,General_Jokes,General_Jokes,0.9561630725860597,pizza,0.2406768500804901,General_Connect_to_Agent,0.2350582093000412
+67,I'm bored,General_Jokes,General_Jokes,0.843106746673584,General_Ending,0.27598305940628054,General_Negative_Feedback,0.25848613381385804
+68,I want a joke,General_Jokes,General_Jokes,0.9348537445068359,General_Connect_to_Agent,0.2947367250919342,turn-right,0.24499282240867615
+69,I do not like you,General_Negative_Feedback,General_Negative_Feedback,0.9313225746154785,General_Jokes,0.23342484533786775,General_Security_Assurance,0.23321560323238374
+70,I hate you,General_Negative_Feedback,General_Negative_Feedback,0.972870969772339,General_Ending,0.2520468354225159,General_Jokes,0.2378010928630829
+71,Robots are stupid,General_Negative_Feedback,General_Negative_Feedback,0.9922661781311035,General_Human_or_Bot,0.2846579432487488,General_Connect_to_Agent,0.2597430527210236
+72,Stupid,General_Negative_Feedback,General_Negative_Feedback,0.9468593120574951,Bot_Control_Ignore_Undo,0.34838578701019285,General_Ending,0.26407929062843327
+73,Can't believe you are that good,General_Positive_Feedback,Bot_Control_Reject_Response,0.4879830837249756,General_Negative_Feedback,0.34647225141525273,Bot_Control_Clarification,0.25602408647537234
+74,I like what you did there! :),General_Positive_Feedback,Bot_Control_Confirm_Presence,0.3193418622016907,General_Agent_Capabilities,0.2856698453426361,General_Greetings,0.2630016386508942
+75,Love your work,General_Positive_Feedback,General_Positive_Feedback,0.5030003070831299,General_About_You,0.38819905519485476,toppings,0.24582974016666415
+76,This is so cool,General_Positive_Feedback,General_Positive_Feedback,0.9813081741333007,Bot_Control_Approve_Response,0.32049331665039066,General_Negative_Feedback,0.30081263780593875
+77,Conversation secure?,General_Security_Assurance,General_Security_Assurance,0.966459894180298,General_Connect_to_Agent,0.2650781512260437,Bot_Control_Change_Subject,0.23990662395954132
+78,How do I know if my card info is kept safe?,General_Security_Assurance,General_Security_Assurance,0.9905675411224366,General_Agent_Capabilities,0.3881765961647034,mission,0.2509491086006165
+79,Is there a reason to distrust this chat?,General_Security_Assurance,General_Security_Assurance,0.7901226997375488,Bot_Control_Start_Over,0.3150886774063111,General_Negative_Feedback,0.24623973071575167
+80,Is this conversation secure?,General_Security_Assurance,General_Security_Assurance,0.9779171466827392,General_Positive_Feedback,0.3362686038017273,General_Negative_Feedback,0.2619676470756531
+81,What safety measures are used to ensure that chat is secure?,General_Security_Assurance,General_Security_Assurance,0.964545488357544,General_Agent_Capabilities,0.4259795665740967,Bot_Control_Clarification,0.25196118354797364
+82,please you need to help me,help,help,0.9680599689483642,Bot_Control_Reject_Response,0.3313617706298828,Bot_Control_Start_Over,0.2766832292079926
+83,where did you take me,location,Bot_Control_Confirm_Presence,0.7443222999572754,General_Greetings,0.4418696403503418,General_About_You,0.3303205251693726
+84,what should I do,mission,mission,0.530983829498291,General_Agent_Capabilities,0.34032875299453735,Bot_Control_Approve_Response,0.2660378932952881
+85,would like to eat a pizza,pizza,pizza,0.9427376747131349,Bot_Control_Start_Over,0.2845091581344605,General_Jokes,0.28353989720344547
+86,can you add more topping,toppings,toppings,0.8982305526733398,Bot_Control_Start_Over,0.2996778905391693,Bot_Control_Change_Subject,0.240285661816597
+87,i want a meaty pizza,toppings,pizza,0.8416190147399902,toppings,0.3810519576072693,General_Connect_to_Agent,0.27178288102149967
+88,turn to your right,turn-right,turn-right,0.8460894107818604,General_About_You,0.3032375693321228,General_Positive_Feedback,0.25182510018348697

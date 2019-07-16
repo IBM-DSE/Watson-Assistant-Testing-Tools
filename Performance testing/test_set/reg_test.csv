@@ -1,0 +1,9 @@
+text,intent
+I would like to order a pizza,pizza
+where I am right now,location
+tell me your name,General_About_You
+mission to Mars,mission
+I am going to miss you,General_Ending
+I am going to miss my dog,General_Ending
+I want rucola on top ,toppings
+is it possible to have ricotta salata,toppings

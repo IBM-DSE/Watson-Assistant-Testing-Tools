@@ -1,0 +1,9 @@
+original_text,predicted_intent,actual_intent1,actual_confidence1,actual_intent2,actual_confidence2,actual_intent3,actual_confidence3
+I would like to order a pizza,pizza,pizza,0.9907717704772949,Bot_Control_Standby,0.2647486984729767,mission,0.24117017388343812
+where I am right now,location,location,0.8985697746276855,Bot_Control_Approve_Response,0.3634586811065674,turn-right,0.32483485937118534
+tell me your name,General_About_You,General_About_You,0.9856324195861816,General_Jokes,0.24407041668891907,General_Connect_to_Agent,0.2440683722496033
+mission to Mars,mission,mission,0.8152782440185546,General_Connect_to_Agent,0.29308462738990787,General_Ending,0.28615413308143617
+I am going to miss you,General_Ending,General_Ending,0.7791688919067383,Bot_Control_Confirm_Presence,0.6367428779602051,General_Positive_Feedback,0.25445826053619386
+I am going to miss my dog,General_Ending,General_Ending,0.4115957260131836,toppings,0.2705082416534424,turn-right,0.24938117265701296
+I want rucola on top ,toppings,General_Ending,0.646931791305542,Bot_Control_Start_Over,0.5195365190505982,toppings,0.4789430618286133
+is it possible to have ricotta salata,toppings,pizza,0.35225579738616947,toppings,0.3024202585220337,General_Security_Assurance,0.2578146517276764

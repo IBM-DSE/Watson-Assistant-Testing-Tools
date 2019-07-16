@@ -1,0 +1,26 @@
+class,f1_score,precision,recall,support
+Bot_Control_Approve_Response,0.63,0.55,0.73,15.0
+  Bot_Control_Change_Subject,0.73,0.67,0.8,10.0
+   Bot_Control_Clarification,0.47,0.44,0.5,14.0
+Bot_Control_Confirm_Presence,0.34,0.31,0.38,13.0
+     Bot_Control_Ignore_Undo,0.35,0.25,0.6,5.0
+ Bot_Control_Reject_Response,0.75,0.83,0.68,22.0
+   Bot_Control_Standby,0.73,0.75,0.71,21.0
+Bot_Control_Start_Over,0.81,0.75,0.88,17.0
+    Bot_Control_Unsure,0.96,0.92,1.0,11.0
+     General_About_You,0.65,0.5,0.91,11.0
+  General_Agent_Capabilities,0.63,0.61,0.66,29.0
+    General_Connect_to_Agent,0.93,0.92,0.95,37.0
+  General_Ending,0.72,0.69,0.76,33.0
+     General_Greetings,0.63,0.63,0.63,27.0
+  General_Human_or_Bot,0.72,0.75,0.69,13.0
+   General_Jokes,0.97,1.0,0.94,18.0
+   General_Negative_Feedback,0.97,0.95,1.0,19.0
+   General_Positive_Feedback,0.59,0.53,0.67,15.0
+  General_Security_Assurance,0.98,0.96,1.0,25.0
+help,0.57,0.8,0.44,9.0
+  location,0.33,0.4,0.29,7.0
+   mission,1.0,1.0,1.0,5.0
+     pizza,0.5,0.4,0.67,3.0
+  toppings,0.77,0.71,0.83,6.0
+turn-right,1.0,1.0,1.0,5.0

@@ -1,0 +1,9 @@
+text,workspace_id,intent
+I would like to order a pizza,347da87c-8823-4aea-9d3f-b441ea8c31e5,pizza
+where I am right now,347da87c-8823-4aea-9d3f-b441ea8c31e5,location
+tell me your name,347da87c-8823-4aea-9d3f-b441ea8c31e5,General_About_You
+mission to Mars,347da87c-8823-4aea-9d3f-b441ea8c31e5,mission
+I am going to miss you,347da87c-8823-4aea-9d3f-b441ea8c31e5,General_Ending
+I am going to miss my dog,347da87c-8823-4aea-9d3f-b441ea8c31e5,General_Ending
+I want rucola on top ,347da87c-8823-4aea-9d3f-b441ea8c31e5,toppings
+is it possible to have ricotta salata,347da87c-8823-4aea-9d3f-b441ea8c31e5,toppings
