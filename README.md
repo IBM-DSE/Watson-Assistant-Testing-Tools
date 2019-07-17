@@ -1,4 +1,4 @@
-# Waton-Assistant-Testing-Tools
+# Watson-Assistant-Testing-Tools
 collection of Jupyter Notebook in Python that can be used to test your Watson Assistant workspace
 
 ## Performance Testing (single-workspace)
